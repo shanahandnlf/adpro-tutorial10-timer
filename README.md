@@ -1,0 +1,3 @@
+Experiment 1.2: Understanding how it works:
+![alt text](image.png)
+Dapat terlihat dari foto di atas teks yang muncul duluan adalah Shanahan's Laptop: hey hey. Hal ini dikarenakan teks ini berada di atas drop(spawner) dan executor.run(). Hal ini menyebabkan pesan ini muncul duluan sebelum pesan lainnya yang ada dalam Spawner. Setelah itu, pesan yang muncul adalah Shanahan's Laptop: howdy! dilanjutkan dengan Shanahan's Laptop: done! setelah 2 detik. Hal ini dikarenakan pesan ini berada di dalam drop(spawner) dan executor.run().
